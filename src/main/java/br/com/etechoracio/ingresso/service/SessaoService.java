@@ -17,7 +17,7 @@ public class SessaoService {
     @Autowired
     private SessaoMapper sessaoMapper;
 
-    //arrumar
+    //arrumarksksk
     public List<SessaoResponseDTO> findEmCartaz() {
         var sessoes = sessaoRepository.findById(long);
         return sessaoMapper.toResponseDTOList(sessoes);
